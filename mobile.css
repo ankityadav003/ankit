@@ -1,0 +1,451 @@
+@media screen and (max-width: 1250px) {
+  .card {
+    width: 20vw;
+  }
+  #ham {
+    display: none;
+  }
+  .about-container {
+    padding:30px 10vw;
+    margin: 0;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .a1{
+    margin: 10vw ;
+  }
+  #ham {
+    display: initial;
+  }
+  h5{
+    font-size: 1rem;
+  }
+  nav {
+    position: absolute;
+    top: -50vh;
+    left: 8vh;
+  }
+  .navbar i,
+  span{
+    display: none;
+  }
+  .active {
+    background-color: white;
+    top: 2vh;
+    left: 8vh;
+    width: 90vw;
+    margin-top: -1px;
+    height: 6vh;
+    padding: 0 15px;
+  }
+  .navbar ul {
+    width: 100%;
+    height: 80%;
+  }
+  /* .navbar a  {
+    margin: 5px 0;
+  } */
+  .btn-s   {
+    margin: 5px;
+  }
+  .mainContainer {
+    width: 100vw;
+    margin-inline: auto;
+  }
+  main {
+    margin-top: 7vh;
+  }
+  main img {
+    width: 30vw;
+    margin-left: 0px;
+  }
+  .main-text {
+    width: 100%;
+    margin: 10px;
+  }
+  .back-to-top {
+    visibility: hidden;
+  }
+  .article-section {
+    flex-direction: column;
+  }
+  .first {
+    width: 100%;
+  }
+  .second {
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 30px;
+  }
+  .card-container1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 20px;
+  }
+  .card-container2 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 20px;
+  }
+  .card {
+    width: 30vw;
+    height: 55vh;
+    padding: 15px;
+  }
+  .card h3 {
+    margin: 15px 0;
+  }
+  .work-section {
+    flex-direction: column-reverse;
+    margin: 0 2vw;
+  }
+  .work-text {
+    width: 100%;
+    padding: 10px;
+  }
+  .work-text p {
+    margin: 0;
+  }
+  .line {
+    margin: 10px 0;
+    width: 25vw;
+  }
+  .work-image {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .cards2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cards img {
+    width: 25vw;
+    height: 20vw;
+  }
+  .cards2 img {
+    width: 25vw;
+    height: 20vw;
+  }
+  .cards :nth-child(1) {
+    height: 20vw;
+  }
+  .cards :nth-child(3) {
+    height: 20vw;
+  }
+  .cards2 :nth-child(2) {
+    height: 20vw;
+  }
+  .hire-section {
+    flex-direction: column;
+    margin: 10px 2vw;
+    padding: 5px;
+  }
+  .hire-first {
+    width: 100%;
+  }
+  .btn1 {
+    margin: 0;
+  }
+  .hire-second {
+    width: 100%;
+  }
+  .hire-card {
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .hire-card h4 {
+    font-size: 1rem;
+  }
+  .contact-me {
+    flex-direction: column;
+  }
+  .last-nav {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .last-nav a {
+    margin: 0 20px;
+  }
+  .contact-icon {
+    width: 100%;
+    align-items: center;
+  }
+  .contact-icon h4 {
+    padding: 0 10px;
+  }
+  .contact-icon a {
+    padding: 5px 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .btn-2 {
+    width: 50vw;
+  }
+  .active {
+    background-color: white;
+    width: 80vw;
+    height: 50vh;
+    left: 11vw;
+    border-radius: 8px;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  .mainContainer {
+    overflow: hidden;
+  }
+  main {
+    flex-direction: column;
+  }
+  main img {
+    width: 40vw;
+    margin-left: 0px;
+  }
+  .main-text {
+    width: 100%;
+    padding: 5px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-text h2,
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .article-section {
+    margin: 0 2vw;
+  }
+  .article-section p {
+    font-size: 1rem;
+  }
+  .card-container1 {
+    gap: 5px;
+  }
+  .card-container2 {
+    gap: 5px;
+  }
+  .card {
+    width: 40vw;
+    height: 45vh;
+  }
+  .skill-card{
+    width: 35vw;
+  }
+  .work-section {
+    flex-direction: column-reverse;
+    margin: 0 2vw;
+  }
+  .work-section h4 {
+    font-size: 0.8rem;
+  }
+  .work-text {
+    width: 100vw;
+    padding: 0 10px;
+  }
+  .work-text p {
+    padding: 0;
+  }
+  .work-image {
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .hire-section {
+    flex-direction: column;
+    margin: 0 2vw;
+  }
+  .hire-second h4 {
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .contact-me {
+    flex-direction: column;
+  }
+  .last-nav {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .last-nav a {
+    margin: 0 1px;
+  }
+  .a a {
+    font-size: 0.8rem;
+    padding: 5px;
+  }.a1{
+    margin: 10vw ;
+  }
+  input {
+    width: 80vw;
+  }textarea {
+    width: 80vw;
+  }
+  .contact-card {
+    width: 90vw;
+  }
+
+}
+@media screen and (max-width: 420px) {
+  h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+  .active {
+    background-color: white;
+    width: 80vw;
+    height: 50vh;
+    left: 11vw;
+    border-radius: 8px;
+  }
+  .navbar ul {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+  }
+  main img {
+    width: 60%;
+    margin-left: 0px;
+  }
+  .image {
+    margin: 5px;
+  }
+  .main-text {
+    width: 100%;
+  }
+  p {
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+  /* .primary_btn {
+    width: 80vw;
+  } */
+  .main-text {
+    padding: 5px;
+  }
+  .card {
+    width: 100%;
+    padding: 15px;
+  }
+  .work-text {
+    padding: 15px;
+    margin: 0 3vw;
+  }
+  .work-text h1 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .work-image {
+    flex-direction: column;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    flex-direction: column;
+  }
+  .cards2 {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cards img {
+    width: 80%;
+    height: 100%;
+    padding: 8px;
+  }
+  .cards2 img {
+    width: 80%;
+    height: 100%;
+    padding: 8px;
+  }
+  .cards :nth-child(1) {
+    width: 80%;
+    height: 100%;
+  }
+  .cards :nth-child(3) {
+    width: 80%;
+    height: 100%;
+  }
+  .cards2 :nth-child(2) {
+    width: 80%;
+    height: 100%;
+  }
+  .skill-card{
+    width: 80%;
+    margin: 3px;
+    padding-bottom: 10px;
+  }
+  .hire-card h4 {
+    font-size: 0.8rem;
+  }
+  .btn-t {
+    width: 100%;
+  }
+  .hire-card {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .contact-me {
+    flex-direction: row;
+    height: 45vh;
+    padding: 10px 0;
+  }
+  .last-nav {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .last-nav a {
+    font-size: 0.8rem;
+    padding: 10px 5px;
+  }
+  .contact-icon {
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+  .contact-icon h4 {
+    color: black;
+  }
+  .contact-icon a {
+    margin: 0 0px;
+    padding: 5px;
+  }
+  .a a {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  .copyright-section {
+    font-size: 0.5rem;
+  }
+  .contact-card h4{
+    font-size: 0.7rem;
+  }
+}
